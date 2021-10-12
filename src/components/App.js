@@ -11,8 +11,8 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Home />
-      <About />
+      <Home username="Aidan" city="Minneapolis"/>
+      <About bio="A software engineer from the midwest"/>
     </div>
   );
 }
